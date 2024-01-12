@@ -1,5 +1,1 @@
-Hello, I am attempting to learn Python. 
-
-I have zero knowlege of anything related to coding. 
-
-I am looking to create a bot that uses votes to promote or demote a user within my discord. 
+I want this bot to have the ability to promote or demote a targeted user. I want the bot to take 1 hour to wait to tally the reactions (Thumbs up being yes, down being no), then apply the role higher in the higherachy. Simple right?
