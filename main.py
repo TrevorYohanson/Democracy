@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 import asyncio
-
+from config import TOKEN
 
 intents = discord.Intents.all()
 
@@ -56,5 +56,3 @@ async def promote(ctx, target: discord.Member):
 async def demote(ctx, target: discord.Member):
     initiator = ctx.author
     await ctx.send(f"A demotion vote has been started by {initiator.mention} to promote {target.mention}")
-
-bot.run("MyBotToken")
